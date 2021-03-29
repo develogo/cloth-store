@@ -1,0 +1,37 @@
+name: cloth_store
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sliding_up_panel:
+    git:
+      url: https://github.com/uintdev/sliding_up_panel
+  cupertino_icons: ^1.0.2
+  flutter_modular: ^3.0.2+1
+  mobx: ^2.0.0-nullsafety.5
+  flutter_mobx: ^2.0.0-nullsafety.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mobx_codegen: ^2.0.0-nullsafety.2
+  flutter_modular_test: ^1.0.0
+  build_runner: ^1.12.2
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Gilroy
+      fonts:
+        - asset: assets/fonts/Gilroy-Light.otf
+        - asset: assets/fonts/Gilroy-ExtraBold.otf
+          weight: 700
+  assets:
+    - assets/images/
+  
